@@ -1,0 +1,9 @@
+CXXSRCS += DevCpu.cpp DevFpga.cpp Device.cpp
+CXXSRCS += DevSophon.cpp
+CXXSRCS += DnnFrmwk.cpp
+CXXSRCS += ConvLayer.cpp FCLayer.cpp InputLayer.cpp Layer.cpp ReluLayer.cpp SoftmaxLayer.cpp
+CXXSRCS += FpgaKcu.cpp FpgaZed.cpp
+CXXSRCS += Mnist.cpp
+CXXSRCS += utils.cpp
+
+VPATH += :src
